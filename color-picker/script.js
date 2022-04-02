@@ -2,7 +2,7 @@ window.onload = function () {
     initColorPicker();
 };
 
-function initColofrPicker() {
+function initColorPicker() {
     let colorBox = document.getElementById("color-box");
     let rgb = {
         red: document.getElementById("red"),
@@ -27,6 +27,6 @@ function setColorPickerEventListeners(colorBox, rgb) {
 
 function setBoxBGColor(colorBox, red, green, blue) {
     rgbVal = [red, green, blue].join(',');
-    colorBox.style.backgroundColor = "rgb(" + rgbVal_+ ")";
+    colorBox.style.backgroundColor = "rgb(" + rgbVal + ")";
 
 }
